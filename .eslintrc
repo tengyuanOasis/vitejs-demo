@@ -1,34 +1,37 @@
 {
-	"extends": ["@antfu", "prettier"],
+  "extends": [
+    "@antfu",
+    "prettier"
+  ],
   "parserOptions": {
     "sourceType": "module"
   },
-	"plugins": ["prettier"],
-	"rules": {
-		"prettier/prettier": [
-			"error",
-			{
-				"singleQuote": true,
-				"trailingComma": "none",
-				"semi": true,
-				"bracketSpacing": true,
-				"htmlWhitespaceSensitivity": "ignore",
-				"vueIndentScriptAndStyle": true,
-				"endOfLine": "lf",
-				"useTabs": true,
-				"tabWidth": 2,
-				"jsxBracketSameLine": true,
-				"jsxSingleQuote": true,
-				"requireConfig": true,
-				"printWidth": 120
-			}
-		],
-		"antfu/if-newline": "off",
-		"@typescript-eslint/ban-ts-comment": "off",
-		"@typescript-eslint/ban-ts-ignore": "off",
-		"eslint-comments/no-unlimited-disable": "off",
-		"arrow-body-style": "off",
-		"prefer-arrow-callback": "off",
-		"no-console": "off"
-	}
+  "plugins": [
+    "prettier"
+  ],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true,
+        "trailingComma": "none",
+        "semi": true,
+        "bracketSpacing": true,
+        "htmlWhitespaceSensitivity": "ignore",
+        "vueIndentScriptAndStyle": true,
+        "endOfLine": "lf",
+        "useTabs": true,
+        "tabWidth": 2,
+        "jsxBracketSameLine": true,
+        "jsxSingleQuote": true,
+        "requireConfig": true,
+        "printWidth": 120
+      }
+    ],
+    "antfu/if-newline": "off",
+    "eslint-comments/no-unlimited-disable": "off",
+    "arrow-body-style": "off",
+    "prefer-arrow-callback": "off",
+    "no-console": "off"
+  }
 }

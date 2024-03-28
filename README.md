@@ -1,16 +1,20 @@
-# Vue 3 
-- [x] vue3
-- [x] vue-router
-- [x] pinia
+# Vue 3
 
-# lint 
-- [x] commintlint
-- [x] eslint
-- [x] sylelint
-- [x] hushkey
-- [x] prettier 
+- [X] vue3
+- [X] vue-router
+- [X] pinia
+
+# lint
+
+- [X] commintlint
+- [X] eslint
+- [X] sylelint
+- [X] hushkey
+- [X] prettier
 
 # other
-- [x] axios
-- [x] lodash
-- [x] dayjs 
+
+- [X] axios
+- [X] lodash
+- [X] dayjs
+- [ ] 虚拟滚动
