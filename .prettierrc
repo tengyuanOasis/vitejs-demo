@@ -1,0 +1,24 @@
+{
+  "parser": "babel",
+  "singleQuote": true,
+  "trailingComma": "none",
+  "semi": true,
+  "bracketSpacing": true,
+  "htmlWhitespaceSensitivity": "ignore",
+  "vueIndentScriptAndStyle": true,
+  "endOfLine": "lf",
+  "useTabs": true,
+  "tabWidth": 2,
+  "jsxBracketSameLine": true,
+  "jsxSingleQuote": true,
+  "requireConfig": true,
+  "printWidth": 120,
+  "overrides": [
+    {
+      "files": "*.vue",
+      "options": {
+        "parser": "vue"
+      }
+    }
+  ]
+}

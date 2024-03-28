@@ -1,0 +1,53 @@
+{
+	"author": "tengyuan",
+	"license": "ISC",
+	"name": "vite-vue-starter",
+	"private": true,
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview",
+		"prepare": "husky",
+		"cz": "./node_modules/cz-customizable/standalone.js",
+		"style": "stylelint \"src/**/*.(vue|scss|css)\" --fix"
+	},
+	"dependencies": {
+		"vue": "^3.4.21"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://gitee.com/tengtengtengyuan/nfc-social.git"
+	},
+
+	"husky": {
+		"hooks": {
+			"commit-msg": ".husky/commit-msg"
+		}
+	},
+	"config": {
+		"commitizen": {
+			"path": "node_modules/cz-customizable"
+		}
+	},
+	"devDependencies": {
+		"@vitejs/plugin-vue": "^5.0.4",
+		"sass": "^1.72.0",
+		"scss-loader": "^0.0.1",
+		"vite": "^5.2.0",
+		"@commitlint/cli": "^19.2.1",
+		"@commitlint/config-conventional": "^19.1.0",
+		"cz-customizable": "^7.0.0",
+		"eslint": "^8.57.0",
+    "@antfu/eslint-config": "0.36.0",
+		"eslint-config-prettier": "8.7.0",
+		"eslint-plugin-prettier": "4.2.1",
+		"eslint-plugin-vue": "^9.22.0",
+		"husky": "^9.0.11",
+		"prettier": "^3.2.5",
+		"stylelint": "^16.2.1",
+		"stylelint-config-standard": "^36.0.0",
+		"stylelint-order": "^6.0.4"
+	}
+}
